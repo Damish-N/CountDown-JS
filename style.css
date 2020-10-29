@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(5, 5, 5);
+}
+body {
+    /* background-image: url(/image2.jpg); */
+    font-family: Poppins, sans-serif;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0px;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-top: 5rem;
+    color: rgba(213, 218, 219, 0.68);
+}
+div {
+    display: block;
+}
+.countdown-container {
+    color: rgba(70, 157, 192, 0.796);
+    display: flex;
+}
+
+.countdown-el {
+    text-align: center;
+    color: aliceblue;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    font-weight: bold;
+    margin: 0px 2rem;
+}
